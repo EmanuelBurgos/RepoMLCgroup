@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Libre+Baskerville:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    position: absolute; 
+}
+
+header{
+    background-color: rgb(150, 230, 203);
+    height: 65px;
+    padding-top: 5px;
+    /* position: fixed; */
+    width: 100%;
+}
+h1{
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    height: 70px;
+}
+nav{
+    text-align: center;
+    
+}
+a{
+    text-decoration:none;
+    color:black;
+    font-size: 20px;
+    
+}
+
+ .Titulo{ 
+     position: relative;
+    background-color: rgb(164, 117, 207);
+
+}
+
+
+a:hover{
+     background-color:rgb(122, 96, 146) ; 
+}
+.Aire:hover .sub-aire{
+    background-color:rgb(122, 96, 146);
+    display: flex;
+}
+.Hela:hover .sub-hela{
+    background-color:rgb(122, 96, 146);
+    display: flex;
+}
+.Camara:hover .sub-camara{
+    background-color: rgb(122, 96, 146);
+    display: flex;
+}
+.Central:hover .sub-central{
+    background-color: rgb(122, 96, 146);
+    display: flex;
+}
+.Insta:hover .sub-insta{
+    background-color: rgb(122, 96, 146);
+    display: flex;
+}
+.sub-aire,.sub-hela,.sub-camara,.sub-central,.sub-insta{
+    flex-direction: column;
+    /* margin:0px; */
+    /* left: 0;  */
+    position: absolute;
+    padding-left: 0;
+    padding-right: 2px;
+    /* background-color: red; */
+    display: none;
+    
+ }
+
+
+h2{
+    Color:aquamarine;
+    height: 60px;
+}
+
+.primera{
+    display: flex;
+    margin-right: 0px;
+    }
+.segunda{
+    width: 300px;
+}    
+ul{
+    display: flex;
+    color:blue;
+
+}
+
+li{
+    margin: 0% 2rem;
+}
+/*img{
+    width: 300px;
+    mask-border-slice: 190rem
+ } */
+
+
+footer{
+    background-color: rgb(36, 35, 35);
+    height: 200px;
+padding-top: 20px;
+
+    
+    
+}
+.botones{
+    margin-left: 200px;
+    padding-top: 20px;
+    display:flex;
+    height: 150px;
+    width: auto
+    background-color:rgb(23, 23, 58)
+    
+    
+
+}
+
+.Contacto, .Quienes, .Cotiza{
+    background-color: black;
+    margin:2px auto;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    
+
+}
+img{
+    height: 50px;
+    width: 50px;
+ }
+
+/* #Quienes{ 
+background-color: black;
+    margin:2px auto;
+    width: 100px;
+    height: 100px;
+    color: white;    
+}
+#Cotiza{
+    background-color: black;
+    margin:2px auto;
+    width: 100px;
+    height: 100px;
+    color: white;
+}*/
